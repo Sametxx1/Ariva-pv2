@@ -3,7 +3,6 @@ import os
 import sys
 import time
 
-# Flask uygulamasını başlatma fonksiyonu
 def start_app():
     flask_process = subprocess.Popen([sys.executable, "ip.py"])
     try:
